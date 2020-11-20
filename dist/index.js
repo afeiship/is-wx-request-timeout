@@ -3,7 +3,7 @@
  * description: Storage implement for GM tampermonkey.
  * homepage: https://github.com/afeiship/next-gm-storage
  * version: 1.0.0
- * date: 2020-11-20 16:47:35
+ * date: 2020-11-20 16:49:17
  * license: MIT
  */
 
