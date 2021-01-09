@@ -8,7 +8,7 @@
  */
 
 (function() {
-  var global = global || window || Function('return this')();
+  var global = typeof window !== 'undefined' ? window : this || Function('return this')();
   var nx = global.nx || require('@jswork/next');
   var NxAbstractStorage = nx.AbstractStorage || require('@jswork/next-abstract-storage');
   var NxGmStoreEngine = nx.GmStoreEngine || require('@jswork/next-gm-store-engine');
