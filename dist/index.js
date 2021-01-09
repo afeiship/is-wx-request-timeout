@@ -2,8 +2,8 @@
  * name: @jswork/next-gm-storage
  * description: Storage implement for GM tampermonkey.
  * homepage: https://github.com/afeiship/next-gm-storage
- * version: 1.0.1
- * date: 2021-01-06 22:06:33
+ * version: 1.0.2
+ * date: 2021-01-09 16:22:01
  * license: MIT
  */
 
