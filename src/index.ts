@@ -5,7 +5,7 @@
 
 declare var wx: any;
 
-const isWxRequestTimeout = (inErrorMessage: string | undefined): boolean => {
+const isWxRequestTimeout = (inErrorMessage?: string): boolean => {
   if (!inErrorMessage) return false;
   const msg = inErrorMessage.toLowerCase();
   if (msg.includes('timeout')) return true;
