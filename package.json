@@ -1,6 +1,6 @@
 {
   "name": "@jswork/is-wx-request-timeout",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Detect if weixin request timeout for mina.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -56,6 +56,7 @@
     "mina",
     "weixin",
     "wx",
-    "wxapp"
+    "wxapp",
+    "timeout"
   ]
 }
