@@ -1,5 +1,5 @@
-# next-gm-storage
-> Storage implement for GM tampermonkey.
+# is-wx-request-timeout
+> Detect if weixin request timeout for mina.
 
 [![version][version-image]][version-url]
 [![license][license-image]][license-url]
@@ -7,33 +7,28 @@
 [![download][download-image]][download-url]
 
 ## installation
-```bash
-npm install -S @jswork/next-gm-storage
+```shell
+npm install @jswork/is-wx-request-timeout
 ```
-
-## apis
-| api | params | description   |
-|-----|--------|---------------|
-| get | -      | desc balabala |
 
 ## usage
 ```js
-import NxGmStorage from '@jswork/next-gm-storage';
+import isWxRequestTimeout from '@jswork/is-wx-request-timeout';
 
-// code goes here:
+// usage goes here.
 ```
 
 ## license
-Code released under [the MIT license](https://github.com/afeiship/next-gm-storage/blob/master/LICENSE.txt).
+Code released under [the MIT license](https://github.com/afeiship/is-wx-request-timeout/blob/master/LICENSE.txt).
 
-[version-image]: https://img.shields.io/npm/v/@jswork/next-gm-storage
-[version-url]: https://npmjs.org/package/@jswork/next-gm-storage
+[version-image]: https://img.shields.io/npm/v/@jswork/is-wx-request-timeout
+[version-url]: https://npmjs.org/package/@jswork/is-wx-request-timeout
 
-[license-image]: https://img.shields.io/npm/l/@jswork/next-gm-storage
-[license-url]: https://github.com/afeiship/next-gm-storage/blob/master/LICENSE.txt
+[license-image]: https://img.shields.io/npm/l/@jswork/is-wx-request-timeout
+[license-url]: https://github.com/afeiship/is-wx-request-timeout/blob/master/LICENSE.txt
 
-[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/next-gm-storage
-[size-url]: https://github.com/afeiship/next-gm-storage/blob/master/dist/next-gm-storage.min.js
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/is-wx-request-timeout
+[size-url]: https://github.com/afeiship/is-wx-request-timeout/blob/master/dist/is-wx-request-timeout.min.js
 
-[download-image]: https://img.shields.io/npm/dm/@jswork/next-gm-storage
-[download-url]: https://www.npmjs.com/package/@jswork/next-gm-storage
+[download-image]: https://img.shields.io/npm/dm/@jswork/is-wx-request-timeout
+[download-url]: https://www.npmjs.com/package/@jswork/is-wx-request-timeout
