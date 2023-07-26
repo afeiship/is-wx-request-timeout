@@ -15,7 +15,9 @@ npm install @jswork/is-wx-request-timeout
 ```js
 import isWxRequestTimeout from '@jswork/is-wx-request-timeout';
 
-// usage goes here.
+const msg = err.errMsg; 
+
+isWxRequestTimeout(msg); // true/false
 ```
 
 ## license
